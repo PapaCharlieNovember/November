@@ -54,7 +54,7 @@ td {
 /* Dica */
 
 #dicas h3 {
-    color: #ffae00;
+    color: #24b9dd;
     text-align: center;
     font-size: 45px;
     margin-bottom: 3vw;
@@ -64,7 +64,7 @@ td {
 #dicas {
     padding: 2rem;
     text-align: justify;
-    background-color: rgba(0, 0, 0, 0.35);
+    background-color: #30302c;
 }
 
 /* Botões */
@@ -84,8 +84,8 @@ button {
     font-family: 'Chivo', sans-serif;
     width: 15vh;
     height: 6vh;
-    color: #FFFFFF;
-    background: #ff0000;
+    color: #24b9dd;
+    background: #000000;
     font-size: 16px;
     border: none;
     border-radius: 10px;
@@ -94,7 +94,7 @@ button {
 
 button:hover {
     color: white;
-    box-shadow: inset 0 0 0 100px #5f0000;
+    box-shadow: inset 0 0 0 100px #24b9dd;
 }
 
 /* erro */
@@ -110,7 +110,7 @@ button:hover {
     justify-content: center;
     margin-top: 10vh;
     font-family: 'VT323', monospace;
-    color: rgb(255, 0, 0);
+    color: #00ff15;
     font-size: 30px;
 }
 
@@ -124,17 +124,18 @@ button:hover {
 .barra-navbar {
     width: 100%;
     height: 20vh;
-    background: #ff0000;
+    background: #000000;
     color: rgb(0, 0, 0);
     display: flex;
     flex-direction: row;
     gap: 10vh;
 }
 
+
 .usuario {
     font-size: 14px;
     font-family: 'Lato', sans-serif;
-    color: white;
+    color: #24b9dd;
     font-weight: 100;
     margin-top: 8vh;
     word-spacing: 5px;
