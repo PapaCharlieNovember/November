@@ -338,26 +338,112 @@ function verificar() {
     }
 
     if (ConsultaVerificar.value == 11) {
-        alert('Resposta: ADDRESS BUS')
+        if (in_palavra_8_14.value == "a" && in_palavra_11_2.value == "d" && in_palavra_6_1.value == "d" && in_palavra_11_4.value == "r" && in_palavra_11_5.value == "e" && in_palavra_3_5.value == "s" && in_palavra_11_7.value == "s" && in_palavra_11_8.value == "b" && in_palavra_11_9.value == "u" && in_palavra_11_10.value == "s") {
+            in_palavra_8_14.style.color = "#70cb00";
+            in_palavra_11_2.style.color = "#70cb00";
+            in_palavra_6_1.style.color = "#70cb00";
+            in_palavra_11_4.style.color = "#70cb00";
+            in_palavra_11_5.style.color = "#70cb00";
+            in_palavra_3_5.style.color = "#70cb00";
+            in_palavra_11_7.style.color = "#70cb00";
+            in_palavra_11_8.style.color = "#70cb00";
+            in_palavra_11_9.style.color = "#70cb00";
+            in_palavra_11_10.style.color = "#70cb00";
+        } else {
+            in_palavra_8_14.style.color = "red";
+            in_palavra_11_2.style.color = "red";
+            in_palavra_6_1.style.color = "red";
+            in_palavra_11_4.style.color = "red";
+            in_palavra_11_5.style.color = "red";
+            in_palavra_3_5.style.color = "red";
+            in_palavra_11_7.style.color = "red";
+            in_palavra_11_8.style.color = "red";
+            in_palavra_11_9.style.color = "red";
+            in_palavra_11_10.style.color = "red";
+        }
     }
 
     if (ConsultaVerificar.value == 12) {
-        alert('Resposta: DATA BUS')
+        if (in_palavra_3_9.value == "d" && in_palavra_12_2.value == "a" && in_palavra_12_3.value == "t" && in_palavra_12_4.value == "a" && in_palavra_12_5.value == "b" && in_palavra_1_3.value == "u" && in_palavra_12_7.value == "s") {
+            in_palavra_3_9.style.color = "#70cb00";
+            in_palavra_12_2.style.color = "#70cb00";
+            in_palavra_12_3.style.color = "#70cb00";
+            in_palavra_12_4.style.color = "#70cb00";
+            in_palavra_12_5.style.color = "#70cb00";
+            in_palavra_1_3.style.color = "#70cb00";
+            in_palavra_12_7.style.color = "#70cb00";
+        } else {
+            in_palavra_3_9.style.color = "red";
+            in_palavra_12_2.style.color = "red";
+            in_palavra_12_3.style.color = "red";
+            in_palavra_12_4.style.color = "red";
+            in_palavra_12_5.style.color = "red";
+            in_palavra_1_3.style.color = "red";
+            in_palavra_12_7.style.color = "red";
+        }
     }
 
     if (ConsultaVerificar.value == 13) {
-        alert('Resposta: i5')
+        if (in_palavra_8_6.value == "i" && in_palavra_13_2.value == "5") {
+            in_palavra_8_6.style.color = "#70cb00";
+            in_palavra_13_2.style.color = "#70cb00";
+        } else {
+            in_palavra_8_6.style.color = "red";
+            in_palavra_13_2.style.color = "red";
+        }
     }
 
     if (ConsultaVerificar.value == 14) {
-        alert('Resposta: i7')
+        if (in_palavra_3_4.value == "i" && in_palavra_14_2.value == "7") {
+            in_palavra_3_4.style.color = "#70cb00";
+            in_palavra_14_2.style.color = "#70cb00";
+        } else {
+            in_palavra_3_4.style.color = "red";
+            in_palavra_14_2.style.color = "red";
+        }
     }
 
     if (ConsultaVerificar.value == 15) {
-        alert('Resposta: QUAD CORE')
+        if (in_palavra_15_1.value == "q" && in_palavra_15_2.value == "u" && in_palavra_15_3.value == "a" && in_palavra_15_4.value == "d" && in_palavra_15_5.value == "c" && in_palavra_15_6.value == "o" && in_palavra_15_7.value == "r" && in_palavra_15_8.value == "e") {
+            in_palavra_15_1.style.color = "#70cb00";
+            in_palavra_15_2.style.color = "#70cb00";
+            in_palavra_15_3.style.color = "#70cb00";
+            in_palavra_15_4.style.color = "#70cb00";
+            in_palavra_15_5.style.color = "#70cb00";
+            in_palavra_15_6.style.color = "#70cb00";
+            in_palavra_15_7.style.color = "#70cb00";
+            in_palavra_15_8.style.color = "#70cb00";
+        } else {
+            in_palavra_15_1.style.color = "red";
+            in_palavra_15_2.style.color = "red";
+            in_palavra_15_3.style.color = "red";
+            in_palavra_15_4.style.color = "red";
+            in_palavra_15_5.style.color = "red";
+            in_palavra_15_6.style.color = "red";
+            in_palavra_15_7.style.color = "red";
+            in_palavra_15_8.style.color = "red";
+        }
     }
 
     if (ConsultaVerificar.value == 16) {
-        alert('Resposta: DUAL CORE')
+        if (in_palavra_8_8.value == "d" && in_palavra_16_2.value == "u" && in_palavra_16_3.value == "a" && in_palavra_2_2.value == "l" && in_palavra_16_5.value == "c" && in_palavra_16_6.value == "o" && in_palavra_16_7.value == "r" && in_palavra_15_8.value == "e") {
+            in_palavra_8_8.style.color = "#70cb00";
+            in_palavra_16_2.style.color = "#70cb00";
+            in_palavra_16_3.style.color = "#70cb00";
+            in_palavra_2_2.style.color = "#70cb00";
+            in_palavra_16_5.style.color = "#70cb00";
+            in_palavra_16_6.style.color = "#70cb00";
+            in_palavra_16_7.style.color = "#70cb00";
+            in_palavra_15_8.style.color = "#70cb00";
+        } else {
+            in_palavra_8_8.style.color = "red";
+            in_palavra_16_2.style.color = "red";
+            in_palavra_16_3.style.color = "red";
+            in_palavra_2_2.style.color = "red";
+            in_palavra_16_5.style.color = "red";
+            in_palavra_16_6.style.color = "red";
+            in_palavra_16_7.style.color = "red";
+            in_palavra_15_8.style.color = "red";
+        }
     }
 }
