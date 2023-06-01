@@ -1,4 +1,27 @@
 // ABRIR E FECHAR DICA DAS RESPECTIVAS PERGUNTAS
+
+var usuario = []
+
+function entrar() {
+
+    var nome = input_nome.value;
+
+    if (nome == '') {
+        div_exibir.innerHTML = `Digite o seu nome para prosseguir`
+    } else {
+        usuario.push(nome);
+        div_exibir.innerHTML = ``;
+        sessionStorage.NOME = usuario[0];
+        window.location.href = "palavrasCruzadas.html";
+    }
+
+}
+
+function carregarUsuario() {
+    var usuario_nome = sessionStorage.NOME;
+    usuario_atual.innerHTML = usuario_nome;
+}
+
 function BtnQuest1() {
     if (dica_1.style.display === "none") {
         dica_1.style.display = "block";

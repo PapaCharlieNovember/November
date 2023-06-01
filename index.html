@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="pt-br">
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -17,19 +17,8 @@
     </div>
     </div>
 </body>
+
+<script src="./palavrasCruzadas.js"></script>
+
 </html>
 
-<script>
-    var usuario = []
-   
-    function entrar() {
-        var nome = input_nome.value
-        if (nome == "") {
-            div_exibir.innerHTML = `Coloque seu nome`
-        } else  {
-        usuario.push(nome)
-        sessionStorage.NOME = usuario[0]
-        window.location.href = "palavrasCruzadas.html"
-        }
-    }
-</script>
