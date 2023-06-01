@@ -254,12 +254,12 @@ function verificar() {
     }
 
     if (ConsultaVerificar.value == 6) {
-        if (in_palavra_6_1.value == "r" && in_palavra_6_2.value == "o" && in_palavra_6_3.value == "m") {
-            in_palavra_6_1.style.color = "#70cb00";
+        if (in_palavra_11_4.value == "r" && in_palavra_6_2.value == "o" && in_palavra_6_3.value == "m") {
+            in_palavra_11_4.style.color = "#70cb00";
             in_palavra_6_2.style.color = "#70cb00";
             in_palavra_6_3.style.color = "#70cb00";
         } else {
-            in_palavra_6_1.style.color = "red";
+            in_palavra_11_4.style.color = "red";
             in_palavra_6_2.style.color = "red";
             in_palavra_6_3.style.color = "red";
         }
