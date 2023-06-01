@@ -7,30 +7,28 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="./palavrasCruzadas.css">
     <link rel="Logo icon" href="./imgs/star-wars.png">
-
-    <script src="palavrasCruzadas.js"></script>
     <title>Palavras Cruzadas</title>
 </head>
 
-<body>
+<body onload="carregarUsuario()">
     <div class="barra-navbar">
         <div class="img-footer2">
             <a href="#">    
                 <img src="./imgs/star-wars.png" alt="" width="88px" height="86px">
             </a>
         </div>
-
+        
         <div class="usuario">
             <h2>Olá, <span id="usuario_atual">usuario</span></h2>
         </div>
-
+        
     </div>
-
-
+    
+    
     <div class="conteudo">
-
+        
         <div id="cruzadinha">
-
+            
             <table>
                 <tr>
                     <td></td>
@@ -57,7 +55,7 @@
                     <td></td>
                     <td></td>
                 </tr>
-
+                
                 <tr>
                     <td><button onclick="BtnQuest8()" class="quest">8</button></td>
                     <td><input class="inPalavra1" id="in_palavra_8_1" type="text" maxlength="1"></td>
@@ -84,7 +82,7 @@
                     <td></td>
                     <td></td>
                 </tr>
-
+                
                 <tr>
                     <td></td>
                     <td></td>
@@ -104,7 +102,7 @@
                     <td></td>
                     <td><input class="inPalavra1" id="in_palavra_11_2" type="text" maxlength="1"></td>
                 </tr>
-
+                
                 <tr>
                     <td></td>
                     <td></td>
@@ -129,7 +127,7 @@
                     <td></td>
                     <td></td>
                 </tr>
-
+                
                 <tr>
                     <td></td>
                     <td></td>
@@ -156,7 +154,7 @@
                     <td></td>
                     <td></td>
                 </tr>
-
+                
                 <tr>
                     <td></td>
                     <td></td>
@@ -183,7 +181,7 @@
                     <td></td>
                     <td><button onclick="BtnQuest5()" class="quest">5</button></td>
                 </tr>
-
+                
                 <tr>
                     <td></td>
                     <td></td>
@@ -211,7 +209,7 @@
                     <td><input  class="inPalavra1" id="in_palavra_3_12" type="text" maxlength="1"></td>
                     <td><input  class="inPalavra1" id="in_palavra_3_13" type="text" maxlength="1"></td>
                 </tr>
-
+                
                 <tr>
                     <td></td>
                     <td></td>
@@ -267,7 +265,7 @@
                     <td><input class="inPalavra1" id="in_palavra_5_3" type="text" maxlength="1"></td>
                     <td></td>
                 </tr>
-
+                
                 <tr>
                     <td><button onclick="BtnQuest15()" class="quest">15</button></td>
                     <td><input  class="inPalavra1" id="in_palavra_15_1" type="text" maxlength="1"></td>
@@ -295,7 +293,7 @@
                     <td><input class="inPalavra1" id="in_palavra_5_4" type="text" maxlength="1"></td>
                     <td></td>
                 </tr>
-
+                
                 <tr>
                     <td></td>
                     <td></td>
@@ -323,7 +321,7 @@
                     <td><input class="inPalavra1" id="in_palavra_5_5" type="text" maxlength="1"></td>
                     <td></td>
                 </tr>
-
+                
                 <tr>
                     <td></td>
                     <td><button onclick="BtnQuest7()" class="quest">7</button></td>
@@ -351,7 +349,7 @@
                     <td></td>
                     <td></td>
                 </tr>
-
+                
                 <tr>
                     <td></td>
                     <td></td>
@@ -409,114 +407,116 @@
                 </tr>
             </table>
         </div>
-
+        
         <div id="dicas">
             <h3>Ajuda?</h3>
-
+            
             <div id="dica_1" style="display: none;">
                 <p>1- Parte de um sistema computacional, que realiza as instruções de um programa de computador, que executa a aritmética básica, orientado por um padrão binário 0 e 1 que possibilita a entrada, o processamento e a saída de dados.
                 <br><br></p>
             </div>
-
+            
             <div id="dica_2" style="display: none;">
                 <p>2- É um circuito digital que realiza operações de adição e booleana AND. A ULA é uma peça fundamental da unidade central de processamento, e até dos mais simples microprocessadores.
                     <br><br></p>
-            </div>
-
-            <div id="dica_3" style="display: none;">
-                <p>3- São circuitos digitais capazes de armazenar e deslocar informações binárias, e são tipicamente usados como um dispositivo de armazenamento temporário.
-                <br><br></p>
-            </div>
-
-            <div id="dica_4" style="display: none;">
-                <p>4- Memória que funciona como um espaço de trabalho, mas temporário. Após lidar com todos os dados e informações, estes voltam a ser armazenados no disco rígido ou SSD.
-                <br><br></p>
-            </div>
-
-            <div id="dica_5" style="display: none;">
-                <p>5- Memória que armazena firmwares ou pequenos softwares que funcionam apenas em um hardware específico.
-                <br><br></p>
-            </div>
-
-            <div id="dica_6" style="display: none;">
-                <p>6- Memória que armazena as informações, para serem recuperadas e utilizadas posteriormente, mesmo depois de a alimentação ter sido interrompida.
-                <br><br></p>
-            </div>
-
-            <div id="dica_7" style="display: none;">
-                <p>7- Memória de armazenamento de dados que usa uma memória não volátil.
-                <br><br></p>
-            </div>
-
-            <div id="dica_8" style="display: none;">
-                <p>8- Memória que armazena grandes quantidades de informações. Os dados armazenados nas memórias de massa não são perdidos quando desligamos o equipamento, ao contrário da memória ram.
-                <br><br></p>
-            </div>
-
-            <div id="dica_9" style="display: none;">
-                <p>9- É o método que permite que um dispositivo de entrada e saída envie ou receba dados diretamente da memória principal, ignorando a CPU, acelerando as operações que envolvem a memória.
-                <br><br></p>
-            </div>
-
-            <div id="dica_10" style="display: none;">
-                <p>10- É um mecanismo fundamental para permitir à CPU acessar memórias e/ou periféricos externos
-                <br><br></p>
-            </div>
-
-            <div id="dica_11" style="display: none;">
-                <p>11- É uma arquitetura de barramento de computador usada para transferir dados entre dispositivos identificados pelo endereço de hardware da memória física (o endereço físico), que é armazenado na forma de números binários para permitir que o barramento de dados acesse o armazenamento de memória.
-                <br><br></p>
-            </div>
-
-            <div id="dica_12" style="display: none;">
-                <p>12- É um dispositivo em que através do interior de um computador são transportados dados e informações importantes.
-                <br><br></p>
-            </div>
-
-            <div id="dica_13" style="display: none;">
-                <p>13- É um processador que possui recursos de processamento poderosos e muitos mais núcleos. Ele é indicado para tarefas  exigentes, como a criação e edição de conteúdo com o pacote Adobe e multitarefas. O processamento dessas atividades é feito velozmente sem dificuldade.
-                <br><br></p>
-            </div>
-
-            <div id="dica_14" style="display: none;">
-                <p>14- É um processador com quatro núcleos e conta com recursos como o Turbo Boost, que aumenta a frequência de operação dos núcleos. Além disso, esses processadores tendem a ser mais rápidos e até figuram em linhas especiais, voltadas a entusiastas e gamers.
-                <br><br></p>
-            </div>
-
-            <div id="dica_15" style="display: none;">
-                <p>15- É um tipo de processador que comporta quatro núcleos de processamento de dados. Estes modelos de microprocessadores fazem parte da nova onda de tecnologias para processadores que surgiram na segunda metade da década de 2000.
-                <br><br></p>
-            </div>
-
-            <div id="dica_16" style="display: none;">
-                <p>16- É um  processador no qual possui dois ou mais núcleos de processamento no interior de um único chip. Estes dois ou mais núcleos são responsáveis por dividir as tarefas entre si, ou seja, permitem trabalhar em um ambiente multitarefa.
-                <br><br></p>
-            </div>
-
-            <div class="botoes">
-                <div id="botao">
-                    <button onclick="resposta()">RESPOSTA</button>
-                    <input class="Consultar_Verificar_Resposta" type="number" placeholder="Resposta da Questão:" id="ConsultaResposta" max="16" min="1">
-                </div>
-
-                <div id="botao">
-                    <button onclick="verificar()">VERIFICAR</button>
-                    <input class="Consultar_Verificar_Resposta" type="number" placeholder="Verificar Questão:" id="ConsultaVerificar" max="16" min="1">
                 </div>
                 
-
+                <div id="dica_3" style="display: none;">
+                    <p>3- São circuitos digitais capazes de armazenar e deslocar informações binárias, e são tipicamente usados como um dispositivo de armazenamento temporário.
+                        <br><br></p>
+                    </div>
+                    
+                    <div id="dica_4" style="display: none;">
+                        <p>4- Memória que funciona como um espaço de trabalho, mas temporário. Após lidar com todos os dados e informações, estes voltam a ser armazenados no disco rígido ou SSD.
+                            <br><br></p>
+                        </div>
+                        
+                        <div id="dica_5" style="display: none;">
+                            <p>5- Memória que armazena firmwares ou pequenos softwares que funcionam apenas em um hardware específico.
+                                <br><br></p>
+                            </div>
+                            
+                            <div id="dica_6" style="display: none;">
+                                <p>6- Memória que armazena as informações, para serem recuperadas e utilizadas posteriormente, mesmo depois de a alimentação ter sido interrompida.
+                                    <br><br></p>
+                                </div>
+                                
+                                <div id="dica_7" style="display: none;">
+                                    <p>7- Memória de armazenamento de dados que usa uma memória não volátil.
+                <br><br></p>
+            </div>
+            
+            <div id="dica_8" style="display: none;">
+                <p>8- Memória que armazena grandes quantidades de informações. Os dados armazenados nas memórias de massa não são perdidos quando desligamos o equipamento, ao contrário da memória ram.
+                    <br><br></p>
+                </div>
+                
+                <div id="dica_9" style="display: none;">
+                    <p>9- É o método que permite que um dispositivo de entrada e saída envie ou receba dados diretamente da memória principal, ignorando a CPU, acelerando as operações que envolvem a memória.
+                        <br><br></p>
+                    </div>
+                    
+                    <div id="dica_10" style="display: none;">
+                        <p>10- É um mecanismo fundamental para permitir à CPU acessar memórias e/ou periféricos externos
+                            <br><br></p>
+                        </div>
+                        
+                        <div id="dica_11" style="display: none;">
+                            <p>11- É uma arquitetura de barramento de computador usada para transferir dados entre dispositivos identificados pelo endereço de hardware da memória física (o endereço físico), que é armazenado na forma de números binários para permitir que o barramento de dados acesse o armazenamento de memória.
+                                <br><br></p>
+                            </div>
+                            
+                            <div id="dica_12" style="display: none;">
+                                <p>12- É um dispositivo em que através do interior de um computador são transportados dados e informações importantes.
+                                    <br><br></p>
+                                </div>
+                                
+                                <div id="dica_13" style="display: none;">
+                                    <p>13- É um processador que possui recursos de processamento poderosos e muitos mais núcleos. Ele é indicado para tarefas  exigentes, como a criação e edição de conteúdo com o pacote Adobe e multitarefas. O processamento dessas atividades é feito velozmente sem dificuldade.
+                                        <br><br></p>
+                                    </div>
+                                    
+            <div id="dica_14" style="display: none;">
+                <p>14- É um processador com quatro núcleos e conta com recursos como o Turbo Boost, que aumenta a frequência de operação dos núcleos. Além disso, esses processadores tendem a ser mais rápidos e até figuram em linhas especiais, voltadas a entusiastas e gamers.
+                    <br><br></p>
+                </div>
+                
+                <div id="dica_15" style="display: none;">
+                    <p>15- É um tipo de processador que comporta quatro núcleos de processamento de dados. Estes modelos de microprocessadores fazem parte da nova onda de tecnologias para processadores que surgiram na segunda metade da década de 2000.
+                        <br><br></p>
+                    </div>
+                    
+                    <div id="dica_16" style="display: none;">
+                        <p>16- É um  processador no qual possui dois ou mais núcleos de processamento no interior de um único chip. Estes dois ou mais núcleos são responsáveis por dividir as tarefas entre si, ou seja, permitem trabalhar em um ambiente multitarefa.
+                            <br><br></p>
+                        </div>
+                        
+                        <div class="botoes">
+                            <div id="botao">
+                                <button onclick="resposta()">RESPOSTA</button>
+                                <input class="Consultar_Verificar_Resposta" type="number" placeholder="Resposta da Questão:" id="ConsultaResposta" max="16" min="1">
+                            </div>
+                            
+                            <div id="botao">
+                                <button onclick="verificar()">VERIFICAR</button>
+                                <input class="Consultar_Verificar_Resposta" type="number" placeholder="Verificar Questão:" id="ConsultaVerificar" max="16" min="1">
+                            </div>
+                            
+                            
                 <!-- <div class="proxBtn" id="botao">
                     <button onclick="proxima()">PRÓXIMA</button>
                 </div> -->
-
-
+                
+                
             </div>
             <div id="resultado" class="resultado"></div>
             <div class="erro_resposta" id="erro_resposta"></div>
-
+            
         </div>
-
+        
     </div>
 </body>
+
+<script src="palavrasCruzadas.js"></script>
 
 </html>
